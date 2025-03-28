@@ -13,18 +13,21 @@ const changeColor=()=>{
 
    // color="Blue"
 
+   if(color=="Red")
+   {
    setColor("Blue")
-    
+   }
+   else 
+   {
+    setColor("Red")
+   }
 }
-
-console.log(color)
-
 
 return(
 <>
 <h1>My favourite color is {color}!</h1>
 
-<button onClick={changeColor}>{color=="Red"?"Blue":"Red"}</button>
+<button style={{color:color=="Red"?"blue":"red"}} onClick={changeColor}>{color=="Red"?"Blue":"Red"}</button>
 </>
 
 

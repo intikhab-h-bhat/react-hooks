@@ -3,6 +3,7 @@ import './App.css';
 
 import UseStateDemo from './components/UseStateDemo';
 import UseStateWithObj from './components/UseStateWithObj';
+import UseRefDom from './components/UseRefDom';
 
 
 function App() {
@@ -11,6 +12,8 @@ function App() {
       <UseStateDemo />
 
       <UseStateWithObj />
+
+      <UseRefDom/>
     </div>
   );
 }
