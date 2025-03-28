@@ -4,6 +4,7 @@ import './App.css';
 import UseStateDemo from './components/UseStateDemo';
 import UseStateWithObj from './components/UseStateWithObj';
 import UseRefDom from './components/UseRefDom';
+import UseEffectDemo from './components/UseEffectDemo';
 
 
 function App() {
@@ -14,6 +15,8 @@ function App() {
       <UseStateWithObj />
 
       <UseRefDom/>
+
+      <UseEffectDemo/>
     </div>
   );
 }
