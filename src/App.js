@@ -6,6 +6,7 @@ import UseStateWithObj from './components/UseStateWithObj';
 import UseRefDom from './components/UseRefDom';
 import UseEffectDemo from './components/UseEffectDemo';
 import UseMemoDemo from './components/UseMemoDemo';
+import UseCallBackDemo from './components/UseCallBackDemo';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
       <UseEffectDemo/> */}
 
       <UseMemoDemo/>
+        <UseCallBackDemo/>
+
     </div>
   );
 }
