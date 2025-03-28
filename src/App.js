@@ -7,6 +7,9 @@ import UseRefDom from './components/UseRefDom';
 import UseEffectDemo from './components/UseEffectDemo';
 import UseMemoDemo from './components/UseMemoDemo';
 import UseCallBackDemo from './components/UseCallBackDemo';
+import Profile from './components/Profile';
+import Footer from './components/Footer';
+
 
 function App() {
   return (
@@ -16,8 +19,10 @@ function App() {
       <UseRefDom/>
       <UseEffectDemo/> */}
 
-      <UseMemoDemo/>
-        <UseCallBackDemo/>
+      {/* <UseMemoDemo/>
+        <UseCallBackDemo/> */}
+        <Profile/>
+        <Footer/>
 
     </div>
   );
