@@ -5,18 +5,17 @@ import UseStateDemo from './components/UseStateDemo';
 import UseStateWithObj from './components/UseStateWithObj';
 import UseRefDom from './components/UseRefDom';
 import UseEffectDemo from './components/UseEffectDemo';
-
+import UseMemoDemo from './components/UseMemoDemo';
 
 function App() {
   return (
     <div className="App">
-      <UseStateDemo />
-
+      {/* <UseStateDemo />
       <UseStateWithObj />
-
       <UseRefDom/>
+      <UseEffectDemo/> */}
 
-      <UseEffectDemo/>
+      <UseMemoDemo/>
     </div>
   );
 }
